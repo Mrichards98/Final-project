@@ -41,7 +41,7 @@ header{
 nav{
 	width:100%;
 	height:46px;
-	background-color:white;
+	background-color:hsla(296, 55%, 41%, 0.2);
 	margin-top:10px;
   list-style-type:none;
   margin: 0;
@@ -56,6 +56,9 @@ nav{
 	display: inline;
 	align-content: center
 	
+}
+.video{
+	flex: initial;
 }
 
 
