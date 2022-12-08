@@ -60,6 +60,15 @@ form{
 	
 }
 
+.photos{
+   display: flex;
+  flex-wrap:nowrap;
+  width: 100px;
+  margin: 40px;
+	
+	
+}
+
 footer{
 	width:100%;
 	text-align: center;
