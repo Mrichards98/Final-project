@@ -12,19 +12,19 @@
 	
 	
 	<div id="container">
-	<header align="center">Mock Hair Salon</header>
+	<header align="center">New Client Form</header>
 <br>
 		<br>
 		
 	</div>
-	<div id="ncform">
-<form action="/action_page.php" class="container-3">
+	<div id="form">
+<form action="/action_page.php">
 	<label for="fname">Name:</label>
-	<input type="text" id="fname" name="fname" value="Jane Doe"> 
+	<input type="text" id="fname" name="fname" value="Jane Doe" required> 
 		<br>
 	
 	<label for="phone">Phone:</label>
-	<input type="text" id="phone" name="phone"> 
+	<input type="text" id="phone" name="phone" required> 
 		<br>
 	
 	<label for="email">Email</label>
@@ -35,6 +35,36 @@
 	<input type="text" name="first" id="first">
 	<br>
 	
+	<label for="second">What’s your preferred method of communication for scheduling and confirming appointments?</label>
+	<select name="second" id="second">
+		<option label="call">Call</option>
+		<option label="Text">Text</option>
+		<option label="Email">Email</option>
+	</select>
+	<br>
+	
+	<label for="third">Have you had any allergic or adverse reactions to hair color or cosmetics? please list any allergies we need to be aware of..</label>
+	<input type="text" name="third" id="third">
+	<br>
+	
+	<label for="fourth">Have you ever been treated by a doctor for hair loss or scalp problems? if yes please explain diagnosis and treatment plan.
+do you presently have any hairline breakage, thinning areas or bald spots?</label>
+	<input type="text" name="fourth" id="fourth">
+	<br>
+	
+	<label for="fifth">Do you currently have extensions? If so what type/method? When was your last move-up/ maintance appointment? 
+Are you looking to keep them and add on a maintance service or remove them? (clients will always keep their hair, I do not hold onto hair unless they need to be colored)</label>
+	<input type="text" name="fifth" id="fifth">
+	<br>
+	
+	
+	<label for="sixth">Give a little hair history. What chemical services have you done in the last 5 years? I.E. Hair color, keratins, relaxer, perms, etc.</label>
+	<input type="text" name="sixth" id="sixth">
+	<br>
+	
+	<label for="seventh">What kind of service(s) are you looking to have done?</label>
+	<input type="text" name="seventh" id="seventh">
+	
 	<label for="date">Desired Booking Date</label>
 	<input type="date" name="date" id="date" min="2022-11-28">	
 		
@@ -43,4 +73,5 @@
 	
 <body>
 </body>
+	<footer> Hair by Shelley.stylez</footer>
 </html>
