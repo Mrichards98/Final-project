@@ -14,6 +14,7 @@ header{
 	font-family: 'Pirata One', cursive;
 	font-size: 40px;
 	padding-top: 30px;
+	padding-left:20px;
 }
 
 	th, td {border:2px solid black;
@@ -66,7 +67,6 @@ form{
 	background: rgba(65,41,42,1.00);
 	font-family:'Pirata One',cursive;
 	font-stretch: expanded;
-	padding-bottom: 100px;
 }
 
 .photos{
@@ -98,7 +98,7 @@ footer{
 	text-align: center;
 	font-family: 'Pirata One', cursive;
 	font-size: 20px;
-	padding-top: 30px;
+	padding-top: 300px;
 }
 
   /* Responsive layout - makes a one column layout instead of a two-column layout */
