@@ -60,11 +60,12 @@ form{
 	font-size: 10px;
 }
 .container-2{
-	display: flex;
-  flex-direction: row;
-  padding: 15%;
- padding-between: 5%;
-	
+	display:flex;
+	text-align-last:center;
+	align-content: center;
+	background: rgba(65,41,42,1.00);
+	font-family:'Pirata One',cursive;
+	font-stretch: expanded;
 }
 
 .photos{
@@ -72,8 +73,6 @@ form{
   flex-wrap:nowrap;
   width: 100px;
   margin: 40px;
-	
-	
 }
 
 .container-3{
@@ -82,10 +81,16 @@ form{
 }
 
 .contact{
-	text-align: center;
 	font-family: 'Pirata One', cursive;
 	font-size: 20px;
+	text-align: center;
+	align-content: space-between 200px;
+	padding-bottom:9px;
 }
+.instagram-media{
+align-content: center;
+}
+
 
 footer{
 	width:100%;
